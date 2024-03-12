@@ -12,9 +12,23 @@ Exemplo de Entrada
 Exemplo de Saída
 O resultado da soma é 3.5
 '''
-n1 = float(input('Digite o primeiro número1:' ))
-n2 = float(input('Digite o segundo número2:' ))
- 
-if n1= + 
+n1 = float(input("Digite um numero:"))
+n2 = float(input("Digite um numero"))
+op = input("Digite operador matematico:")
 
+#processamento
+if op == '+':
+    resultado = n1 + n2
+    print('O resultado da soma é', resultado)
+elif op == '-':
+    resultado = n1 - n2
+    print('O resultado da subtração é', resultado)
+elif op == '/':
+    resultado = n1 / n2
+    print('O resultado da divisão é', resultado)
+elif op == '*':
+    resultado = n1 * n2
+    print('O resultado da multiplicação é', resultado)
+else:
+    print('Operador desconhecido')
 
